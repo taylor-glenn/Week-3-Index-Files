@@ -31,8 +31,6 @@ img {
     margin-top:0;
 }
 
-<script src="./script.js"></script>
-
 </body>
 </html>
 
@@ -166,14 +164,16 @@ ul.breadcrumb li+li:before {
     padding: 0 20px;
 }
 .column,
-,columns {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 3%;
+.columns {
+ display: inline-block;
+ vertical-align: top;
+ margin-left: 3%;
 }
-.column: first-child,
-.columns: first-child {
-    margin-left: 0px;
+.column:first-child,
+.columns:first-child {
+ margin-left: 0px;
+}
+
 }
 .one.column {
     width: 4.6%;
